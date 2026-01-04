@@ -6,9 +6,9 @@ from datetime import datetime
 
 # ========== STEP 1: FILE PATHS AND DATA LOADING ==========
 # Define file paths
-ORIGINAL_DATA_FILE = r'C:\Users\DELL\OneDrive\Desktop\newmsme\Employe_Performance_dataset.csv'
-NEW_DATA_FILE = r'C:\Users\DELL\OneDrive\Desktop\newmsme\new_employees.csv'
-MASTER_DATA_FILE = r'C:\Users\DELL\OneDrive\Desktop\newmsme\combined_employees.csv'
+ORIGINAL_DATA_FILE = "Employe_Performance_dataset.csv"
+NEW_DATA_FILE = "new_employees.csv"
+MASTER_DATA_FILE = "combined_employees.csv"
 
 # Load data with caching - UPDATED VERSION
 @st.cache_data
